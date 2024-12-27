@@ -6,7 +6,10 @@
     --efa-link-:#fe8f33;
     --efa-bg3-:#253c53;
 }
-
+html{
+    display: flex;
+    justify-content: center;
+}
 body{
     background-color: var(--efa-bg1-);
     padding:0 !important;
