@@ -72,3 +72,50 @@ li{
     margin-left: 170px;
     font-weight: 600;
 }
+
+.our-top-offers{
+    background-color: var(--efa-bg2)
+}
+.our-top-offers h1{
+    text-align: center;
+    font-weight: 100;
+    font-size: 35px;
+    padding-top: 40px;
+}
+.separator{
+    padding-left: 300px;
+    padding-bottom: 50px;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    padding-left: 2px;
+    padding-bottom: 70px;
+}
+article button{
+    padding:17px 20px;
+    background-color: var(--efa-bg1-);
+    color: var(--efa-white-);
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    border-radius: 12px;
+
+}
+.why-choose-us{
+   position:relative;
+   top:-25px;
+   background-color: var(--efa-white-);
+}
+.why-choose-us h1{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 400;
+}
+.imgIco{
+    padding-left: 50px;
+}
+article section h2, article section p{
+    text-align: center;
+}
