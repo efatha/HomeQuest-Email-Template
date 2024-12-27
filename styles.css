@@ -18,21 +18,43 @@ body{
     width:100% !important;
     -webkit-text-size-adjust:none;
     border:1px solid black;
-    max-width: 678px;
+    max-width: 650px;
 
 }
-header, a{
+header{
     color:var(--efa-color1);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 54px;
+    padding-bottom: 24px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+.logo{
+    margin-top: -20px;
+}
+a{
+    color: var(--efa-color1);
 }
 ul{
     display: flex;
     list-style: none;
-    text-indent: 10px;
+    text-indent: 15px;
     justify-content: center;
     background-color: var(--efa-bg3-);
     color:var(--efa-bg2);
+    padding: 22px;
+}
+li{
+    border-right: 10px solid var(--efa-link-);
+    border-width: 10px;
+    height:3px;
+    display: flex;
+    align-items: center;
+    padding-right:15px ;
+    font-size: small;
+    font-weight: 700;
 }
 .on-the-quest{
     color:var(--efa-link-);
